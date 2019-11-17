@@ -109,7 +109,7 @@ signal-hook-registry = { version = "1.1.1", optional = true }
 mio-named-pipes = { version = "0.1.6", optional = true }
 
 [target.'cfg(windows)'.dependencies.winapi]
-version = "0.3.8"
+version = "0.3.7"
 default-features = false
 optional = true
 
